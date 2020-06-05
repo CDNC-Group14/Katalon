@@ -10,7 +10,7 @@
    <driver>InternalData</driver>
    <data>1100001</data>
    <data>Binary-m%C3%A3+th%E1%BA%ADp+ph%C3%A2n%2C+ho%E1%BA%B7c+BCD%2C+l%C3%A0+m%E1%BB%99t+%C4%91%E1%BA%A1i+di%E1%BB%87n+%C4%91%C6%B0%E1%BB%A3c+m%C3%A3+h%C3%B3a+nh%E1%BB%8B+ph%C3%A2n+c%E1%BB%A7a+c%C3%A1c+gi%C3%A1+tr%E1%BB%8B+s%E1%BB%91+nguy%C3%AAn+s%E1%BB%AD+d%E1%BB%A5ng+m%E1%BB%99t+nibble+4+bit+%C4%91%E1%BB%83+m%C3%A3+ho%C3%A1+ch%E1%BB%AF+s%E1%BB%91+th%E1%BA%ADp+ph%C3%A2n.+B%E1%BB%91n+bit+nh%E1%BB%8B+ph%C3%A2n+c%C3%B3+th%E1%BB%83+m%C3%A3+h%C3%B3a+l%C3%AAn+%C4%91%E1%BA%BFn+16+gi%C3%A1+tr%E1%BB%8B+ri%C3%AAng+bi%E1%BB%87t%3B+Nh%C6%B0ng+trong+s%E1%BB%91+m%C3%A3+h%C3%B3a+BCD%2C+ch%E1%BB%89+c%C3%B3+m%C6%B0%E1%BB%9Di+gi%C3%A1+tr%E1%BB%8B+%C4%91%E1%BA%A7u+ti%C3%AAn+trong+m%E1%BB%97i+l%E1%BA%A7n+g%E1%BB%99p+l%E1%BA%A1i+l%C3%A0+h%E1%BB%A3p+ph%C3%A1p%2C+v%C3%A0+m%C3%A3+ho%C3%A1+c%C3%A1c+s%E1%BB%91+th%E1%BA%ADp+ph%C3%A2n+s%E1%BB%91+kh%C3%B4ng%2C+th%C3%B4ng+qua+ch%C3%ADn.+S%C3%A1u+gi%C3%A1+tr%E1%BB%8B+c%C3%B2n+l%E1%BA%A1i+l%C3%A0+b%E1%BA%A5t+h%E1%BB%A3p+ph%C3%A1p+v%C3%A0+c%C3%B3+th%E1%BB%83+g%C3%A2y+ra+ngo%E1%BA%A1i+l%E1%BB%87+m%C3%A1y+t%C3%ADnh+ho%E1%BA%B7c+h%C3%A0nh+vi+kh%C3%B4ng+x%C3%A1c+%C4%91%E1%BB%8Bnh%2C+t%C3%B9y+thu%E1%BB%99c+v%C3%A0o+vi%E1%BB%87c+th%E1%BB%B1c+hi%E1%BB%87n+s%E1%BB%91+h%E1%BB%8Dc+BCD+c%E1%BB%A7a+m%C3%A1y+t%C3%ADnh.</data>
-   <data>null</data>
+   <data>abc</data>
    <data>%24%24</data>
    <data>https%3A%2F%2Fforum.katalon.com</data>
    <internalDataColumns>

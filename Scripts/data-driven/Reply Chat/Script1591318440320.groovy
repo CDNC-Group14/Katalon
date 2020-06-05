@@ -16,10 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://hcmus-mattermost-webapp.herokuapp.com/login')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'huy123')
 
@@ -28,11 +27,10 @@ WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communicat
 WebUI.click(findTestObject('Page_Mattermost/button_Sign in'))
 
 WebUI.click(findTestObject('Object Repository/Page_ Town Square - huy123 Mattermost/span_17'))
-	
+
 WebUI.setText(findTestObject('Page_ Town Square - huy123 Mattermost/textarea_Add a comment_reply_textbox'), replyText)
 
 WebUI.click(findTestObject('Page_ Town Square - huy123 Mattermost/input_Help_addCommentButton'))
-
 
 WebUI.closeBrowser()
 

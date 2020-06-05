@@ -18,16 +18,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://hcmus-mattermost-webapp.herokuapp.com/signup_email')
+WebUI.navigateToUrl('http://localhost:8065/signup_email')
 
 WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_Choose your password_password'), 'kqakvKzNv1OoS06P96fXXQ==')
 
 WebUI.setText(findTestObject('Page_Mattermost/input_Choose your username_name'), 'queocute')
-WebUI.setText(findTestObject('Page_Mattermost/input_concat(What  s your email address)_email'),"huycong2798@gmail.com")
-WebUI.click(findTestObject('Page_Mattermost/span_Create Account'))
-if(WebUI.verifyTextPresent('An account with that email already exists.', false))
-{
-	WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Back'))
-}
 
+WebUI.setText(findTestObject('Page_Mattermost/input_concat(What  s your email address)_email'), 'huycong2798@gmail.com')
+
+WebUI.click(findTestObject('Page_Mattermost/span_Create Account'))
+
+if (WebUI.verifyTextPresent('An account with that email already exists.', false)) {
+    WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Back'))
+}
 

@@ -36,5 +36,5 @@ WebUI.click(findTestObject('Page_Mattermost/button_Create Account'))
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Logout'))
 
-WebUI.navigateToUrl('https://hcmus-mattermost-webapp.herokuapp.com/')
+WebUI.navigateToUrl('http://localhost:8065/login')
 

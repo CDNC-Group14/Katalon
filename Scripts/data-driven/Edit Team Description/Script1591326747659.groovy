@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://hcmus-mattermost-webapp.herokuapp.com')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'huy123')
 
@@ -26,17 +26,16 @@ WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communicat
 
 WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_pensive -  kin khc  Mattermost/h1_ kin khc'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - tester Mattermost/h1_tester'))
 
-WebUI.click(findTestObject('Object Repository/Page_pensive -  kin khc  Mattermost/span_Team Settings'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - tester Mattermost/span_Team Settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_pensive -  kin khc  Mattermost/button_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - tester Mattermost/span_Edit'))
 
-WebUI.setText(findTestObject('Page_pensive -  kin khc  Mattermost/input_Team Description_teamDescription'), teamDescription)
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - tester Mattermost/input_Team Description_teamDescription'), 
+    teamDescription)
 
-WebUI.click(findTestObject('Object Repository/Page_pensive -  kin khc  Mattermost/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - tester Mattermost/span_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_pensive -  kin khc  Mattermost/button_Close'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Page_Town Square - tester Mattermost/span_'))
 

@@ -1,8 +1,8 @@
 email,username,password,namechat
-example01@gmail.com,example01,aeHFOx8jV/A=,example01
-example02@gmail.com,ex02,tzH6RvlfSTg=,ex02
-example01,example03,,example03
-example03@gmail.com,,aeHFOx8jV/A=,
-example01@gmail,@abc,,@abc
-,example06,aeHFOx8jV/A=,example06
-example07@gmail.com,example07,JLUk53bLsjmHP1jdVTJA5g==,example07
+user1@gmail.com,user1,aeHFOx8jV/A=,example01
+user2@gmail.com,user2,aeHFOx8jV/A=,ex02
+user3@gmail.com,user3,aeHFOx8jV/A=,user3
+example03@gmail.com,example03,aeHFOx8jV/A=,example03
+example01@gmail,@abc,aeHFOx8jV/A=,@abc
+example07@gmail.com,example07,aeHFOx8jV/A=,example07
+huy123@gmail.com,huy123,aeHFOx8jV/A=,huy123

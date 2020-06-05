@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://hcmus-mattermost-webapp.herokuapp.com')
+WebUI.navigateToUrl('http://localhost:8065/reset_password')
 
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_To reset your password enter the emai_5f6d79'), email)
 

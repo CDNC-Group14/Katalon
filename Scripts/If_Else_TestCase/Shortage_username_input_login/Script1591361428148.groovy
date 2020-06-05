@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://hcmus-mattermost-webapp.herokuapp.com/')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
 
