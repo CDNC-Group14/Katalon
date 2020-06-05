@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Position</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7da45ef7-489b-48f8-bc54-b76393d8ee90</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3bd40e77-195d-4567-a905-0c644fbc45aa</id>
+      <masked>false</masked>
+      <name>position</name>
+   </variable>
+</TestCaseEntity>

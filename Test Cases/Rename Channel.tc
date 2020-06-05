@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Rename Channel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c06964ef-374e-4cc9-9aea-12e237176d20</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>07c9c616-72cd-4b8f-9856-8e8d72bbd29c</id>
+      <masked>false</masked>
+      <name>channelName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Update Username</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>db236f66-9baf-4ddd-9262-3b344f84a23a</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>abc123</data>
+   <data>AB</data>
+   <data>_test</data>
+   <data>%40test</data>
+   <data>%22%22</data>
+   <data>T%E1%BA%A1o+m%E1%BB%9Bi+</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>newUsername</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

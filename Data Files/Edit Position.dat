@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Edit Position</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>6a53ccc8-d4f7-4322-8102-41ae99bb59ac</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Software+Engineer</data>
+   <data>https%3A%2F%2Fforum.katalon.com</data>
+   <data>null</data>
+   <data>%C3%94ng+D%C5%A9ng+tha+thi%E1%BA%BFt+mong+c%C3%A1c+%C4%91%E1%BA%A1i+bi%E1%BB%83u+%E1%BB%A7ng+h%E1%BB%99+ph%C6%B0%C6%A1ng+%C3%A1n+c%E1%BA%A5m+kinh+doanh+d%E1%BB%8Bch+v%E1%BB%A5+%C4%91%C3%B2i+n%E1%BB%A3+thu%C3%AA</data>
+   <data>*********</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>position</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

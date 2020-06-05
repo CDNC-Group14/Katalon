@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Member</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b84057cd-5443-441f-8ca5-a55c76c99d39</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aefab101-1260-45da-abe3-ca1ceb005e8f</id>
+      <masked>false</masked>
+      <name>nameMember</name>
+   </variable>
+</TestCaseEntity>

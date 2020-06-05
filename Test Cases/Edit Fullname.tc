@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Fullname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4077d738-e2c9-457f-9bed-9add5e95cb69</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>087274dd-afa2-4c87-805a-570b7c620e4a</id>
+      <masked>false</masked>
+      <name>first</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ad70782-3054-4599-bf5d-b7c7d7f3481d</id>
+      <masked>false</masked>
+      <name>second</name>
+   </variable>
+</TestCaseEntity>

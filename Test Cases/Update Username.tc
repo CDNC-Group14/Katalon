@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cee0490c-2a18-4907-a1e0-6b4361e24386</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c4e5826d-25d9-4744-adb9-40b5decc2ace</id>
+      <masked>false</masked>
+      <name>newUsername</name>
+   </variable>
+</TestCaseEntity>

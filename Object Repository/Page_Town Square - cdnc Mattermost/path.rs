@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>0f48834f-8e79-472f-b532-3c37ee6dfd24</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M7.36 2.59999L7.72 4.39999H12.4V9.79999H9.34L8.98 7.99999H2.5V2.59999H7.36ZM8.8 0.799987H0.7V16.1H2.5V9.79999H7.54L7.9 11.6H14.2V2.59999H9.16L8.8 0.799987Z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CENTER_flagIcon_szh8jhuhibgkxf6mw68beqegqr&quot;)/span[@class=&quot;icon&quot;]/svg[1]/path[1]</value>
+   </webElementProperties>
+</WebElementEntity>

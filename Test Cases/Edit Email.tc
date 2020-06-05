@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ad0c87d-1bf5-4145-9dd3-268a7860b599</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3b22f8d-0b79-4e69-b6f9-ee584e043d58</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ca1cd4f4-87cb-4602-8d1d-2a6c3da35cc7</id>
+      <masked>false</masked>
+      <name>confirm</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>385a6330-134d-4425-8103-ab1ab543a060</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>

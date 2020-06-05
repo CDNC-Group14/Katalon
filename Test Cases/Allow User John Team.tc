@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Allow User John Team</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c8c64f0-1700-4c40-a8cd-a3b4e90f9312</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a2878062-6fda-499c-9352-cbdc2274860c</id>
+      <masked>false</masked>
+      <name>domainUser</name>
+   </variable>
+</TestCaseEntity>

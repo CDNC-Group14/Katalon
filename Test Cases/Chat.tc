@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Chat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>426cdf6b-e8e7-433c-b266-1d36f24035e4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1a9f9d73-53b6-4927-ba69-bd1ff51556ca</id>
+      <masked>false</masked>
+      <name>text1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>230de19c-d4b9-405f-a774-1532c0d7a544</id>
+      <masked>false</masked>
+      <name>text02</name>
+   </variable>
+</TestCaseEntity>

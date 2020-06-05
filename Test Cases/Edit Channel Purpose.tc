@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Channel Purpose</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0dd76a8-1532-4591-a93d-73a6a250ef1f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1fddfb3a-1466-4861-87f5-bcf0e835afc7</id>
+      <masked>false</masked>
+      <name>purposeName</name>
+   </variable>
+</TestCaseEntity>

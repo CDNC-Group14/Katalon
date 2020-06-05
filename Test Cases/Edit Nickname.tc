@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Nickname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8314554-2343-4eb2-a683-ca896cdd3128</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bcf0d6c9-3121-4a34-92fe-b7cc2c78dae9</id>
+      <masked>false</masked>
+      <name>nickname</name>
+   </variable>
+</TestCaseEntity>

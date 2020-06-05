@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dbb221a2-1d13-4c89-b4a9-05dd25cc8e7e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d3269810-a908-4670-9eb9-2820b8b71421</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0fbdeb32-1b99-4ff0-a2b8-02ff8c8d6f6e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5570120f-a2d0-4633-8921-17f8801f8bc7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>30b36d43-893b-4409-8887-3af14c67383b</id>
+      <masked>false</masked>
+      <name>namechat</name>
+   </variable>
+</TestCaseEntity>

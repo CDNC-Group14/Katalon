@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Channel Header</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f2fd8e3-eee5-49b9-93db-1dc4f005ed44</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f2b577ea-5f75-46dc-a258-8e700798ca32</id>
+      <masked>false</masked>
+      <name>headerName</name>
+   </variable>
+</TestCaseEntity>

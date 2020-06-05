@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Team Description</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6b35d2a-0485-4fb3-8f43-766ca82ba711</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4c49a780-0233-45c8-8542-cb7878a0ddbe</id>
+      <masked>false</masked>
+      <name>teamDescription</name>
+   </variable>
+</TestCaseEntity>

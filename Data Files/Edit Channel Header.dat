@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Edit Channel Header</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>cdbf7fb3-4c5a-4544-bc6e-8051df1890b2</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>00100110001</data>
+   <data>+++++%40%40%40%40test</data>
+   <data>%3F%3F</data>
+   <data>null</data>
+   <data>%3Apensive%3A+</data>
+   <data>T%E1%BB%95ng+Th%C6%B0+k%C3%BD+Qu%E1%BB%91c+h%E1%BB%99i+Nguy%E1%BB%85n+H%E1%BA%A1nh+Ph%C3%BAc+v%E1%BB%ABa+c%C3%B3+b%C3%A1o+c%C3%A1o+t%E1%BB%95ng+h%E1%BB%A3p+g%E1%BB%ADi+c%C3%A1c+%C4%91%E1%BA%A1i+bi%E1%BB%83u+Qu%E1%BB%91c+h%E1%BB%99i+v%E1%BB%81+k%E1%BA%BFt+qu%E1%BA%A3+phi%E1%BA%BFu+xin+%C3%BD+ki%E1%BA%BFn+%C4%91%E1%BA%A1i+bi%E1%BB%83u+Qu%E1%BB%91c+h%E1%BB%99i+v%E1%BB%81+d%E1%BB%B1+%C3%A1n+Lu%E1%BA%ADt+%C4%90%E1%BA%A7u+t%C6%B0+%28s%E1%BB%ADa+%C4%91%E1%BB%95i%29.</data>
+   <data>tester</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>headerName</name>
+      <size>7</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

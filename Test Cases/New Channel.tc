@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Channel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9e29cd8-ca82-41dd-a9ac-a0e1dc4bb375</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c48d0a2d-c9af-48fb-b0fb-0f8acb98145c</id>
+      <masked>false</masked>
+      <name>nameChannel</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>483b1979-e21d-44e3-a66c-f70c1d16a678</id>
+      <masked>false</masked>
+      <name>purpose</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f61c2c5d-577f-41a2-bdc7-559be8eb3496</id>
+      <masked>false</masked>
+      <name>header</name>
+   </variable>
+</TestCaseEntity>
