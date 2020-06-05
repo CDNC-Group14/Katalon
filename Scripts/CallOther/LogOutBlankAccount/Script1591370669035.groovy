@@ -16,13 +16,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('OtherCases/Login_Blank_Account'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://hcmus-mattermost-webapp.herokuapp.com/')
+<<<<<<< HEAD:Scripts/If_Else_TestCase/New Test Case/Script1591366725686.groovy
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'huy@gmail.com')
+WebUI.click(findTestObject('Page_Mattermost/span_Create one now'))
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'aeHFOx8jV/A=')
-
-WebUI.click(findTestObject('Page_Mattermost/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Back'))
+=======
+WebUI.click(findTestObject('Page_Mattermost/span_Logout'))
+>>>>>>> a308ca2b4ebe1dd3852573d7388379b1a494cea6:Scripts/CallOther/LogOutBlankAccount/Script1591370669035.groovy
 
