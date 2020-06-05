@@ -16,11 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('OtherCases/Login_Account_Have_Many_Teams'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://hcmus-mattermost-webapp.herokuapp.com/')
+WebUI.click(findTestObject('Object Repository/Page_Town Square - queo2 Mattermost/span_Town Square'))
 
-WebUI.click(findTestObject('Page_Mattermost/span_Create one now'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - queo2 Mattermost/span_View Members'))
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Back'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - queo2 Mattermost/span_'))
 

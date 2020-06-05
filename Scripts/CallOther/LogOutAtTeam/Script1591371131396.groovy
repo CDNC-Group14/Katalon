@@ -16,13 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('OtherCases/Login_Already_Have_Team'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - queo Mattermost/button_huyd_style--none sidebar-header-drop_bffe0d'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - queo Mattermost/span_Log Out'))
 
 WebUI.navigateToUrl('http://hcmus-mattermost-webapp.herokuapp.com/')
-
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'huy@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'aeHFOx8jV/A=')
-
-WebUI.click(findTestObject('Page_Mattermost/button_Sign in'))
 
