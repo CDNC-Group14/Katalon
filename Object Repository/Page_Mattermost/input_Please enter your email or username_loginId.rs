@@ -64,16 +64,16 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>huycong2798@gmail.com</value>
+      <value>id(&quot;loginId&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>value</name>
       <type>Main</type>
-      <value>id(&quot;loginId&quot;)</value>
+      <value>huycong2798@gmail.com</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

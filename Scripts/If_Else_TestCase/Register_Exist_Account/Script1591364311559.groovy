@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Page_Mattermost/input_concat(What  s your email ad
 WebUI.click(findTestObject('Page_Mattermost/span_Create Account'))
 if(WebUI.verifyTextPresent('An account with that email already exists.', false))
 {
-	WebUI.click(findTestObject('Page_Mattermost/span_Back'))
+	WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Back'))
 }
 
 
