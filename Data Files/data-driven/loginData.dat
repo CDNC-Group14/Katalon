@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>2937a4bc-b283-44e7-b017-3eae3b007bbd</dataFileGUID>
-   <dataSourceUrl>/Users/huyhq3/Katalon Studio/Mattermost_CDNC/LoginDataDriven.csv</dataSourceUrl>
+   <dataSourceUrl>/Users/huyhq3/Downloads/Katalon/LoginDataDriven.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

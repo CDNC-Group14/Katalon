@@ -17,5 +17,5 @@ import internal.GlobalVariable as GlobalVariable
 
 response = WS.sendRequest(findTestObject('API_TEST/Register_Account_Exist'))
 
-WS.verifyElementPropertyValue(response, 'message', 'An account with that email already exists.')
+WS.verifyElementPropertyValue(response, 'message', 'An account with that username already exists.')
 

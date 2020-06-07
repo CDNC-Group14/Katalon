@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Incoming Webhooks</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82b8b00b-0523-4ca6-973a-f479f286b083</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>398a7d4c-28a9-4349-8980-02ebf60c4757</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6f843054-fc3a-47ea-8f92-bd3a16d8ea55</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

@@ -24,7 +24,7 @@ WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
 
 if (WebUI.verifyTextPresent('Please enter your email or username', false)) {
     WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'), 
-        'hycong2798@gmail.com')
+        'user3')
 }
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))

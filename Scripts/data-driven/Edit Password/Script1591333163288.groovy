@@ -20,32 +20,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'user2')
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'), 'user2')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'), 
+    'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Page_Mattermost/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - example01 Mattermost/h1_example01'))
+WebUI.click(findTestObject('Page_Town Square - ahjgdjhg Mattermost/h1_ahjgdjhg'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - example01 Mattermost/span_Account Settings'))
+WebUI.click(findTestObject('Object Repository/Page_ Town Square - ex02 Mattermost/span_Account Settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - example01 Mattermost/button_Security'))
+WebUI.click(findTestObject('Object Repository/Page_ Town Square - ex02 Mattermost/button_Security'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - example01 Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_ Town Square - ex02 Mattermost/div_PasswordEdit'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Town Square - example01 Mattermost/input_Current Password_currentPassword'), 
-    pass)
+WebUI.setEncryptedText(findTestObject('Page_ Town Square - ex02 Mattermost/input_Current Password_currentPassword'), pass)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Town Square - example01 Mattermost/input_New Password_newPassword'), 
-    newPass)
+WebUI.setEncryptedText(findTestObject('Page_ Town Square - ex02 Mattermost/input_New Password_newPassword'), newPass)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Town Square - example01 Mattermost/input_Retype New Password_confirmPassword'), 
+WebUI.setEncryptedText(findTestObject('Page_ Town Square - ex02 Mattermost/input_Retype New Password_confirmPassword'), 
     confirm)
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - example01 Mattermost/button_Save'))
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - example01 Mattermost/button_Close'))
+WebUI.click(findTestObject('Object Repository/Page_ Town Square - ex02 Mattermost/span_Save'))
 
 WebUI.closeBrowser()
 

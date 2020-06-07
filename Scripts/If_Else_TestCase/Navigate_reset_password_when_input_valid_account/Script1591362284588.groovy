@@ -18,8 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('If_Else_TestCase/Shortage_password_input_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyTextPresent('Enter a valid email or username and/or password.', false))
-{
-
+if (WebUI.verifyTextPresent('Enter a valid email or username and/or password.', false)) {
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_I forgot my password'))
 }
+

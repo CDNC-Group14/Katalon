@@ -16,17 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('OtherCases/LoginCase'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost:8065/login')
-
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'huy123')
-
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'aeHFOx8jV/A=')
-
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
-
-WebUI.click(findTestObject('Page_pensive - cdews Mattermost/h1_cdews'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - huy123 Mattermost/span'))
 
 WebUI.click(findTestObject('Page_pensive - cdews Mattermost/span_Team Settings'))
 

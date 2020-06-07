@@ -19,8 +19,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('If_Else_TestCase/Shortage_username_input_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.verifyTextPresent('Please enter your password', false)) {
-	WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_Please enter your email or username_password'), 
-    'SPLABPTQh2Izezy393aS+HAB9IdmfODM')
+    WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'RigbBhfdqOBGNlJIWM1ClA==')
 }
 
 WebUI.click(findTestObject('Page_Mattermost/button_Sign in'))

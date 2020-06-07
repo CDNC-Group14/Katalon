@@ -22,7 +22,7 @@ WebUI.navigateToUrl('http://localhost:8065/reset_password')
 
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_To reset your password enter the emai_5f6d79'), email)
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Reset my password'))
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Reset my password'))
 
 WebUI.closeBrowser()
 

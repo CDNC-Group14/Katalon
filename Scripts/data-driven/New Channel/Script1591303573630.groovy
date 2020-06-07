@@ -16,27 +16,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('OtherCases/LoginCase'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost:8065/login')
+WebUI.click(findTestObject('Page_Town Square - huy123 Mattermost/span_'))
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'huy123')
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - huy123 Mattermost/input_Name_newChannelName'), nameChannel)
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'aeHFOx8jV/A=')
-
-WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
-
-WebUI.click(findTestObject('Page_Town Square - cdnc Mattermost/span_'))
-
-WebUI.setText(findTestObject('Page_Town Square - cdnc Mattermost/input_Name_newChannelName'), nameChannel)
-
-WebUI.setText(findTestObject('Page_Town Square - cdnc Mattermost/textarea_(optional)_newChannelPurpose'), purpose)
-
-WebUI.setText(findTestObject('Page_Town Square - cdnc Mattermost/textarea_(optional)_newChannelHeader'), header)
-
-WebUI.click(findTestObject('Page_Town Square - cdnc Mattermost/span_Create Channel'))
-
-WebUI.setText(findTestObject('Object Repository/Page_asd - cdnc Mattermost/textarea_Write to asd_post_textbox'), 'xin chào')
+WebUI.click(findTestObject('Object Repository/Page_Town Square - huy123 Mattermost/span_Create Channel'))
 
 WebUI.closeBrowser()
 

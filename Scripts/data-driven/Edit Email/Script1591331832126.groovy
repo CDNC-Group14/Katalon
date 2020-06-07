@@ -20,29 +20,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'user1')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'user3')
 
 WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Page_Mattermost/button_Sign in'))
+WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Page_pensive -  kin khc  Mattermost/h1_ kin khc'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - huy123 Mattermost/span'))
 
-WebUI.click(findTestObject('Page_pensive -  kin khc  Mattermost/span_Account Settings'))
+WebUI.click(findTestObject('Object Repository/Page_ Town Square - user3 Mattermost/span_Account Settings'))
 
-WebUI.click(findTestObject('Page_pensive -  kin khc  Mattermost/button_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_ Town Square - user3 Mattermost/div_EmailEdit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_pensive -  kin khc  Mattermost/input_New Email_primaryEmail'), email)
+WebUI.setText(findTestObject('Page_ Town Square - user3 Mattermost/input_New Email_primaryEmail'), email)
 
-WebUI.setText(findTestObject('Object Repository/Page_pensive -  kin khc  Mattermost/input_Confirm Email_confirmEmail'), 
-    confirm)
+WebUI.setText(findTestObject('Page_ Town Square - user3 Mattermost/input_Confirm Email_confirmEmail'), confirm)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_pensive -  kin khc  Mattermost/input_Current Password_currentPassword'), 
-    pass)
+WebUI.setEncryptedText(findTestObject('Page_ Town Square - user3 Mattermost/input_Current Password_currentPassword'), pass)
 
-WebUI.click(findTestObject('Page_pensive -  kin khc  Mattermost/button_Save'))
-
-WebUI.click(findTestObject('Page_pensive -  kin khc  Mattermost/button_Close'))
+WebUI.click(findTestObject('Object Repository/Page_ Town Square - user3 Mattermost/span_Save'))
 
 WebUI.closeBrowser()
 

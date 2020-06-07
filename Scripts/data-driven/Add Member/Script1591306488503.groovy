@@ -16,32 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('OtherCases/LoginCase'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost:8065/login')
-
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'huy123')
-
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'aeHFOx8jV/A=')
-
-WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/h1_eligendi'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/span_Invite People'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/div_Add members'))
-
-WebUI.setText(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/input_Add or Invite People_react-select-2-input'), 
-    nameMember)
-
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/div_wydum221998dd 33dds'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/span_Invite Members'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/span_Done'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/p_Welcome to Town SquarePost messages here _aa0145'))
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - huy123 Mattermost/input_(Edit)_searchBox'), nameMember)
 
 WebUI.closeBrowser()
 

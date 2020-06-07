@@ -16,27 +16,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('OtherCases/LoginCase'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost:8065/login')
+WebUI.click(findTestObject('Page_Town Square - ahjgdjhg Mattermost/h1_ahjgdjhg'))
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'huy123')
+WebUI.click(findTestObject('Page_Town Square - asd Mattermost/span_Account Settings'))
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'aeHFOx8jV/A=')
+WebUI.click(findTestObject('Object Repository/Page_Town Square - asd Mattermost/div_NicknameEdit'))
 
-WebUI.sendKeys(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Page_Town Square - asd Mattermost/input_Nickname_nickname'))
 
-WebUI.click(findTestObject('Page_pensive -  kin khc  Mattermost/h1_ kin khc'))
+WebUI.setText(findTestObject('Page_Town Square - asd Mattermost/input_Nickname_nickname'), nickname)
 
-WebUI.click(findTestObject('Page_pensive -  kin khc  Mattermost/span_Account Settings'))
-
-WebUI.click(findTestObject('Object Repository/Page_pensive -  kin khc  Mattermost/span_Edit'))
-
-WebUI.setText(findTestObject('Page_pensive -  kin khc  Mattermost/input_Nickname_nickname'), nickname)
-
-WebUI.click(findTestObject('Page_pensive -  kin khc  Mattermost/button_Save'))
-
-WebUI.click(findTestObject('Page_pensive -  kin khc  Mattermost/button_Close'))
+WebUI.click(findTestObject('Page_Town Square - asd Mattermost/span_Save'))
 
 WebUI.closeBrowser()
 

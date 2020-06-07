@@ -16,25 +16,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('OtherCases/LoginCase'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost:8065/login')
-
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'huy123')
-
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'aeHFOx8jV/A=')
-
-WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
-
-WebUI.click(findTestObject('Object Repository/Page_pensive - cdnc Mattermost/h1_cdnc'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - huy123 Mattermost/span'))
 
 WebUI.click(findTestObject('Object Repository/Page_pensive - cdnc Mattermost/span_Team Settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_pensive - cdnc Mattermost/button_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - asd Mattermost/div_Team NameEdit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_pensive - cdnc Mattermost/input_Team Name_teamName'), teamName)
+WebUI.setText(findTestObject('Page_Town Square - asd Mattermost/input_Team Name_teamName'), teamName)
 
-WebUI.click(findTestObject('Object Repository/Page_pensive - cdnc Mattermost/button_Save'))
+WebUI.click(findTestObject('Page_Town Square - asd Mattermost/span_Save'))
 
 WebUI.closeBrowser()
 

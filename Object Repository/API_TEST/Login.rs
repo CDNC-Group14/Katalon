@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\&quot;device_id\&quot;:\&quot;\&quot;,\&quot;login_id\&quot;:\&quot;huycong2798@gmail.com\&quot;,\&quot;password\&quot;:\&quot;123456789!\&quot;,\&quot;token\&quot;:\&quot;\&quot;}&quot;,
+  &quot;text&quot;: &quot;{\&quot;device_id\&quot;:\&quot;\&quot;,\&quot;login_id\&quot;:\&quot;user1\&quot;,\&quot;password\&quot;:\&quot;123456\&quot;,\&quot;token\&quot;:\&quot;\&quot;}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -24,7 +24,7 @@
    <katalonVersion>7.5.5</katalonVersion>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://hcmus-mattermost-webapp.herokuapp.com/api/v4/users/login</restUrl>
+   <restUrl>http://localhost:8065/api/v4/users/login</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

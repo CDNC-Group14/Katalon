@@ -17,5 +17,5 @@ import internal.GlobalVariable as GlobalVariable
 
 response = WS.sendRequest(findTestObject('API_TEST/Login'))
 
-WS.verifyElementPropertyValue(response, 'id', 'z19w46ssy3nq3k9tsdqabkfj7o')
+WS.verifyElementPropertyValue(response, 'id', '88rwtzq18t8njf4kpmrrkpiwrr')
 

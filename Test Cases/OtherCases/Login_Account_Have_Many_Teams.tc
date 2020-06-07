@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Login_Account_Have_Many_Teams</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bffd6421-2183-4cce-8025-0bc9c43429fb</testCaseGuid>
-</TestCaseEntity>

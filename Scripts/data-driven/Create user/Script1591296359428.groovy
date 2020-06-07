@@ -26,15 +26,17 @@ WebUI.setText(findTestObject('Page_Mattermost/input_Choose your username_name'),
 
 WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_Choose your password_password'), password)
 
-WebUI.click(findTestObject('Page_Mattermost/span_Create Account'))
+WebUI.click(findTestObject('Page_Mattermost/button_Create Account'))
 
 WebUI.click(findTestObject('Page_Mattermost/span_Create a team'))
 
 WebUI.setText(findTestObject('Page_Mattermost/input_Team Name_teamNameInput'), namechat)
 
-WebUI.click(findTestObject('Page_Mattermost/span_Next'))
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Next'))
 
 WebUI.click(findTestObject('Page_Mattermost/span_Finish'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - teamname001 Mattermost/span_Skip Tutorial'))
 
 WebUI.closeBrowser()
 

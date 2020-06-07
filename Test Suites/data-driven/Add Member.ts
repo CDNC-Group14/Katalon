@@ -17,7 +17,7 @@
       <testCaseId>Test Cases/data-driven/Add Member</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>e3045cfd-aa55-4a32-86b4-3f9e350aadeb</id>
+         <id>1964e1d2-5ca1-4922-8946-99318021135d</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -25,7 +25,7 @@
          <testDataId>Data Files/data-driven/AddMember</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>e3045cfd-aa55-4a32-86b4-3f9e350aadeb</testDataLinkId>
+         <testDataLinkId>1964e1d2-5ca1-4922-8946-99318021135d</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>nameMember</value>
          <variableId>aefab101-1260-45da-abe3-ca1ceb005e8f</variableId>
